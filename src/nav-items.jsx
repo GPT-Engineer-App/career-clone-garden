@@ -1,5 +1,6 @@
 import { Home, Briefcase, Info, Phone } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import Career from "./pages/Career.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
@@ -12,10 +13,10 @@ export const navItems = [
     page: <Index />,
   },
   {
-    title: "Jobs",
-    to: "/jobs",
+    title: "Careers",
+    to: "/careers",
     icon: <Briefcase className="h-4 w-4" />,
-    page: <Index />, // Placeholder, replace with actual Jobs component when created
+    page: <Career />,
   },
   {
     title: "About Us",
